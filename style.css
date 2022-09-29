@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-family: 'Oswald', sans-serif;
+}
+
+header{
+    padding: 30px 60px;
+}
+
+.menu{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.menu__logo{
+    text-decoration: none;
+}
+
+.menu__ul{
+    list-style-type: none;
+    display: flex;
+}
+
+.menu__link{
+    text-decoration: none;
+}
+
+.menu__li{
+    margin-left: 50px;
+}
+
+main{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.car{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.car__main{
+    display: flex;
+}
+
+.car__info{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+.car__title{
+    padding: 30px;
+}
+
+.car__price{
+    display: flex;
+}
+
+.car__price h3{
+    margin-left: 30px;
+}
+
+.car__desc__ul{
+    list-style-type: none;
+    display: flex;
+}
