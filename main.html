@@ -29,25 +29,73 @@
     </header>
     <main>
         <div class="filter">
-
+            <form action="#">
+                <fieldset class="filter__fieldset">
+                    <legend class="filter__fieldset__title">Марка</legend>
+                    <div class="filter__fieldset__main">
+                        <select name="brand" id="brand">
+                            <option value="All">Всі</option>
+                            <option value="Volkswagen">Volkswagen</option>
+                            <option value="Mercedes">Mercedes</option>
+                            <option value="BMW">BMW</option>
+                        </select>
+                    </div>
+                </fieldset>
+            </form>
         </div>
         <div class="car">
             <div class="car__main">
                 <div class="car__image">
-                    <img src="/img/Vw_Passat_B8.jpg" alt="">
+                    <img src="/img/Custom/Vw_Passat_B8.jpg" alt="">
                 </div>
                 <div class="car__info">
                     <h2 class="car__title">Volkswagen Passat B8</h2>
                     <div class="car__price">
-                        <h3 class="USD">24 999$</h3>
-                        <h3 class="EUR">23 999€</h3>
-                        <h3 class="UAN">1 030 183 грн</h3>
+                        <h3 class="USD">42 222 $</h3>
+                        <span class="car__price__point">•</span>
+                        <h3 class="UAN">1 781 183 грн</h3>
                     </div>
                     <ul class="car__desc__ul">
-                        <li class="car__desc__li">2019 р.</li>
-                        <li class="car__desc__li">171 тис. км</li>
-                        <li class="car__desc__li">Дизель, 2 л.</li>
-                        <li class="car__desc__li">Автомат</li>
+                        <div class="car__desc__left">
+                            <div class="car__desc__row">
+                                <div class="car__desc__icon">
+                                    <img src="/img/System/Спідометр.svg" alt="">
+                                </div>
+                                <li class="car__desc__li">255 тис. км.</li>
+                            </div>
+                            <div class="car__desc__row">
+                                <div class="car__desc__icon">
+                                    <img src="/img/System/Каністра.svg" alt="">
+                                </div>
+                                <li class="car__desc__li">Бензин, 1.8 л.</li>
+                            </div>
+                            <div class="car__desc__row">
+                                <div class="car__desc__icon">
+                                    <img src="/img/System/Рік.svg" alt="">
+                                </div>
+                                <li class="car__desc__li car__desc__li__last">2020 р.</li>
+                            </div>
+                        </div>
+                        <div class="car__desc__rigth">
+                            <div class="car__desc__row">
+                                <div class="car__desc__icon">
+                                    <img src="/img/System/Привід.svg" alt="">
+                                </div>
+                                <li class="car__desc__li">Повний</li>
+                            </div>
+                            <div class="car__desc__row">
+                                <div class="car__desc__icon">
+                                    <img src="/img/System/Коробка передач.svg" alt="">
+                                </div>
+                                <li class="car__desc__li">Автомат</li>
+                            </div>
+                            <div class="car__desc__row">
+                                <div class="car__desc__icon">
+                                    <img src="/img/System/Населений пункт.svg" alt="">
+                                </div>
+                                <li class="car__desc__li car__desc__li__last">Київ</li>
+                            </div>
+                        </div>
                     </ul>
                     <div class="car__desc__add">
                         <p>Шановні друзі демонструємо вам автомобіль volkswagen passat 2017 рік 2.0
