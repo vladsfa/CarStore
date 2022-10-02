@@ -48,37 +48,38 @@ main{
 
 .car__main{
     display: flex;
-    width: 850px;
-    height: 325px;
-    border-radius: 25px;
+    width: 700px;
+    height: 200px;
+    border-radius: 10px;
     box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.2);
     justify-content: space-between;
+    margin-bottom: 40px;
 }
 
 .car__image{
-    width: 54.16%;
+    width: 43%;
     height: 100%;
 }
 
 .car__image img{
     width: 100%;
     height: 100%;
-    border-radius: 15px 0px 0px 15px;
+    border-radius: 10px 0px 0px 10px;
 }
 
 .car__info{
     display: flex;
     flex-direction: column;
-    padding: 15px 25px;
-    width: 45.84%;
+    padding: 9.15px 15.25px;
+    width: 57%;
     height: 100%;
     box-sizing: border-box;
 }
 
 .car__title{
-    margin-bottom: 12px;
+    margin-bottom: 8px;
     font-weight: 500;
-    font-size: 34px;
+    font-size: 20.74;
     display: block;
     line-height: 90%;
     letter-spacing: 1px;
@@ -90,29 +91,29 @@ main{
 }
 
 .car__price__point{
-    color: #5e5e5e;
-    padding: 0px 10px;
-    padding-bottom: 9px;
+    color: #797979;
+    padding: 2px 8px;
+    font-weight: 400;
 }
 
 .USD{
-    font-size: 34px;
-    font-weight: 500;
+    font-size: 23px;
+    font-weight: 600;
     color: #3c9806;
 }
 
 .UAN{
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 400;
-    padding-bottom: 4px;
+    padding-bottom: 2.44px;
 }
 
 .car__desc__ul{
     list-style-type: none;
     display: flex;
     justify-content: space-between;
-    margin: 23px 0px;
-    padding-right: 30px;
+    margin: 10px 0px;
+    padding-right: 100px;
 }
 
 .car__desc__left,
@@ -126,10 +127,10 @@ main{
 }
 
 .car__desc__icon{
-    width: 25px;
-    height: 25px;
+    width: 18.6px;
+    height: 18.6px;
     text-align: center;
-    margin-right: 12px;
+    margin-right: 10px;
 }
 
 .car__desc__icon img{
@@ -138,8 +139,8 @@ main{
 }
 
 .car__desc__li{
-    font-size: 20px;
-    margin-bottom: 15px;
+    font-size: 15px;
+    margin-bottom: 11px;
     letter-spacing: 0.5px;
     font-weight: 400;
 }
@@ -149,9 +150,10 @@ main{
 }
 
 .car__desc__add{
-    font-size: 19px;
+    font-size: 15px;
     font-weight: 300;
     overflow: hidden;
+    padding-right: 60px;
 }
 
 .filter{
