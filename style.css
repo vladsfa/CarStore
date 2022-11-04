@@ -1,3 +1,7 @@
+:host, :root{
+    --wb-font-title: "MBCorpo Title","DaimlerCAC-Regular","DaimlerCACArab-Regular",serif;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -102,11 +106,13 @@ main{
 
 .car__title{
     margin-bottom: 8px;
-    font-weight: 500;
-    font-size: 24px;
+    font-weight: 800;
+    font-size: 25px;
     display: block;
     line-height: 90%;
-    letter-spacing: 1px;
+    font-family: var(--wb-font-title);
+    transform: scale(1, 1.2);
+    letter-spacing: 0.1px;
 }
 
 .car__price{
@@ -175,9 +181,13 @@ main{
 
 .car__desc__add{
     font-size: 15px;
-    font-weight: 300;
+    font-weight: 400;
     overflow: hidden;
     padding-right: 60px;
+}
+
+.car__desc__add p{
+    color: #202020;
 }
 
 .filter{
@@ -196,7 +206,7 @@ main{
 
 .filter__fieldset__title{
     margin-bottom: 8px;
-    font-size: 20px;
+    font-size: 24px;
 }
 
 .filter__fieldset__main select{
@@ -207,8 +217,8 @@ main{
     height: 32px;
     border-radius: 5px;
     font-size: 15px;
-    font-weight: 300;
-    letter-spacing: 0.5px;
+    font-weight: 400;
+    letter-spacing: 1px;
 }
 
 .filter__fieldset__main select:hover{
@@ -218,5 +228,5 @@ main{
 .filter__fieldset__main select option{
     font-size: 15px;
     font-weight: 300;
-    letter-spacing: 1px;
+    letter-spacing: 5px;
 }
